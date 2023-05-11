@@ -10,6 +10,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardComponent } from './card/card.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './card/card.component';
     BreadcrumbComponent,
     ButtonsComponent,
     ButtonGroupComponent,
-    CardComponent
+    CardComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
