@@ -4,11 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { AlertsComponent } from './alerts/alerts.component';
+import { BadgesComponent } from './badges/badges.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { ButtonGroupComponent } from './button-group/button-group.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AccordionComponent
+    AccordionComponent,
+    AlertsComponent,
+    BadgesComponent,
+    BreadcrumbComponent,
+    ButtonsComponent,
+    ButtonGroupComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
