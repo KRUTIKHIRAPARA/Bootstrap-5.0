@@ -11,6 +11,11 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CloseButtonComponent } from './close-button/close-button.component';
+import { CollapseComponent } from './collapse/collapse.component';
+import { DropDownsComponent } from './drop-downs/drop-downs.component';
+import { ListGroupComponent } from './list-group/list-group.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { CarouselComponent } from './carousel/carousel.component';
     ButtonsComponent,
     ButtonGroupComponent,
     CardComponent,
-    CarouselComponent
+    CarouselComponent,
+    CloseButtonComponent,
+    CollapseComponent,
+    DropDownsComponent,
+    ListGroupComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

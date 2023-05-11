@@ -8,6 +8,11 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { CloseButtonComponent } from './close-button/close-button.component';
+import { CollapseComponent } from './collapse/collapse.component';
+import { DropDownsComponent } from './drop-downs/drop-downs.component';
+import { ListGroupComponent } from './list-group/list-group.component';
+import { ModalComponent } from './modal/modal.component';
 
 const routes: Routes = [
   {
@@ -41,6 +46,26 @@ const routes: Routes = [
   {
     path:'carousel',
     component:CarouselComponent
+  },
+  {
+    path:'close-button',
+    component:CloseButtonComponent
+  },
+  {
+    path:'collapse',
+    component:CollapseComponent
+  },
+  {
+    path:'drop-downs',
+    component:DropDownsComponent
+  },
+  {
+    path:'list-group',
+    component:ListGroupComponent
+  },
+  {
+    path:'modal',
+    component:ModalComponent
   }
 ];
 
