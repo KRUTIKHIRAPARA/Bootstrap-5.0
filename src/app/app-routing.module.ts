@@ -13,6 +13,8 @@ import { CollapseComponent } from './collapse/collapse.component';
 import { DropDownsComponent } from './drop-downs/drop-downs.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { ModalComponent } from './modal/modal.component';
+import { NavTabsComponent } from './nav-tabs/nav-tabs.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   {
@@ -66,6 +68,14 @@ const routes: Routes = [
   {
     path:'modal',
     component:ModalComponent
+  },
+  {
+    path:'nav-tabs',
+    component:NavTabsComponent
+  },
+  {
+    path:'navbar',
+    component:NavbarComponent
   }
 ];
 
