@@ -1,0 +1,85 @@
+<br><br>
+
+
+<!-- Simple Scrollspy -->
+<div class="container">
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 w-75 mx-auto">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
+<div  style="overflow-y: scroll; height: 300px;" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example w-75 mx-auto" tabindex="0">
+    <h4 id="scrollspyHeading1">First heading</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, pariatur. Porro consectetur expedita dolorem, maiores amet id sed placeat dignissimos deleniti eum atque officia pariatur itaque dolore ad! Aspernatur, molestiae. Rerum quam adipisci neque nostrum quaerat, quae nam, error debitis delectus dolorem eum illo provident magnam sunt asperiores obcaecati aliquam.</p>
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cupiditate, minima saepe libero, accusantium, sunt nobis tempora beatae numquam voluptate corrupti neque nisi esse eius. Eius culpa voluptas explicabo quae tempora cumque quam iure necessitatibus, earum dolor modi aut debitis vel fugiat at maxime nihil eveniet sequi quo. Distinctio, esse praesentium quidem incidunt natus dicta, magnam necessitatibus ullam ipsa rem ea deserunt quos quas. Dignissimos asperiores laborum, mollitia exercitationem veniam deleniti eius? In nobis, ipsum, doloremque, asperiores eius distinctio minus sunt totam nisi facilis illo? Sint hic quasi, deserunt sed officiis blanditiis alias aliquam eius maiores expedita, nobis esse explicabo?</p>
+    <h4 id="scrollspyHeading3">Third heading</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel dignissimos, cupiditate nesciunt minus culpa, necessitatibus modi aliquid velit deserunt tempora ipsa illo ea rerum sapiente enim nam quia voluptate officiis, odit quidem mollitia architecto laboriosam accusantium. Mollitia repudiandae ex minima excepturi in odit nostrum rem dolores est dignissimos veniam repellat accusamus nobis ut tempora expedita vel tenetur at neque porro beatae blanditiis, ab, soluta tempore. Corporis quidem atque cum hic.</p>
+    <h4 id="scrollspyHeading4">Fourth heading</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, aliquam. Error sunt nam blanditiis fugiat ipsa iste tempore illum minus eum. Laboriosam incidunt distinctio hic dolor laborum voluptas ipsam vel numquam adipisci, ducimus corporis veniam libero sed accusamus perferendis nam doloremque quos dolores ut sit fuga. Numquam mollitia cumque quaerat!</p>
+    <h4 id="scrollspyHeading5">Fifth heading</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet deserunt quis corrupti expedita. Perferendis, totam quam voluptatum, labore tenetur temporibus in ullam quos numquam facilis corrupti eum veritatis repellat laborum nulla incidunt quo tempora culpa accusantium nihil maiores architecto. Eveniet culpa eos aliquam totam sequi unde quas odio itaque?</p>
+</div>
+</div>
+<br><br>
+
+
+<!-- Nested Nav -->
+<div class="container">
+    <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+            <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Item 1</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Item 2</a>
+                  <a class="nav-link" href="#item-3">Item 3</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                  </nav>
+                </nav>
+              </nav>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+            <div style="overflow-y: scroll; height: 380px;" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+                <h4 id="item-1">Item 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h5 id="item-1-1">Item 1-1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h5 id="item-1-2">Item 1-2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h4 id="item-2">Item 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h4 id="item-3">Item 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h5 id="item-3-1">Item 3-1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+                <h5 id="item-3-2">Item 3-2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eius neque unde minus ea ipsam voluptatum aspernatur recusandae veniam illo inventore veritatis dolores ab perferendis, deserunt dignissimos facilis provident nostrum culpa facere ducimus fugiat animi! Corporis praesentium at deleniti. Animi?</p>
+              </div>
+        </div>
+    </div>
+</div>
+
+  

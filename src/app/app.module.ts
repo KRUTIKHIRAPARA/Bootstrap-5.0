@@ -18,6 +18,13 @@ import { ListGroupComponent } from './list-group/list-group.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavTabsComponent } from './nav-tabs/nav-tabs.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { OffcanvasComponent } from './offcanvas/offcanvas.component';
+import { PaginationComponent } from './pagination/pagination.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
+import { ScrollspyComponent } from './scrollspy/scrollspy.component';
+import { SpinnersComponent } from './spinners/spinners.component';
+import { ToastsComponent } from './toasts/toasts.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +43,14 @@ import { NavbarComponent } from './navbar/navbar.component';
     ListGroupComponent,
     ModalComponent,
     NavTabsComponent,
-    NavbarComponent
+    NavbarComponent,
+    OffcanvasComponent,
+    PaginationComponent,
+    PopoversComponent,
+    ProgressComponent,
+    ScrollspyComponent,
+    SpinnersComponent,
+    ToastsComponent
   ],
   imports: [
     BrowserModule,
